@@ -5,6 +5,7 @@
 		    z.append(x*y)
 >>> z=sorted(z)
 >>> z1=[]
+>>>i=0
 >>> while i<len(z):
 	    if z[i]>10:
 		    z1.append(z[i])
