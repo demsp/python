@@ -1,18 +1,21 @@
 >>> prime_nums=[3,5,7,11,13,17,19]
 >>> def mult_nums(nums):
 	    arr=[]
-	      for i in nums:
-		      for j in nums:
-		        arr.append(i*j)
-	    nums=arr
-	    return nums
+	    for i in nums:
+	    	for j in nums:
+			arr.append(i*j)
+	    return arr
 >>> def del_same(nums):
 	    arr=[]
-	      for i in nums:
-		      if not i in arr:
+	    for i in nums:
+	    	if not i in arr:
 		        arr.append(i)
-	    nums=arr
 	    return arr
+
+def del_same(nums):
+	nums=set(nums)
+	return nums
+
 >>> def sort_nums(nums):
 	    nums=sorted(nums)
 	    return nums  
