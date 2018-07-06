@@ -12,7 +12,7 @@
 		        arr.append(i)
 	    return arr
 
-def del_same(nums):
+>>> def del_same(nums):
 	nums=set(nums)
 	return nums
 
