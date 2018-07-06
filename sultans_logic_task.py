@@ -1,3 +1,4 @@
+#  subtact_nums(range(4,201),(sum_nums(prime_nums1)))
 >>> prime_nums=[2,3,5,7,11,13,17,19]
 >>> prime_nums1=[2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97]
 >>> def mult_nums(nums):
