@@ -61,8 +61,8 @@
 ##			##		##
 >>> def mult_summands_k(k):
 	arr=[]
-	for i in range(2,30):
-		for j in range(2,30):
+	for i in range(2,101):
+		for j in range(2,101):
 			if i+j==k:
 				arr.append(i*j)
 	return arr
@@ -79,16 +79,9 @@
 >>> def sets_mult_summands_k(k):
 	arr=[]
 	for i in k:
-		arr.append(set(mult_summands_k(i)))
+		arr.append(sorted(set(mult_summands_k(i))))
 	return arr
 
 >>> sets_mult_summands_k(subtact_nums(range(4,101),(sum_nums(prime_nums))))
-[{24, 18, 28, 30}, {66, 70, 72, 42, 52, 60, 30}, {130, 132, 102, 42, 76, 112, 120, 90, 60, 126}, 
- {162, 72, 170, 140, 110, 176, 50, 180, 182, 152, 92, 126}, {100, 198, 168, 138, 204, 78, 208, 210, 180, 54, 120, 154, 190}, 
- {196, 294, 264, 234, 300, 174, 304, 306, 276, 216, 250, 286}, {322, 232, 330, 300, 270, 336, 340, 342, 312, 252, 286}, 
- {418, 420, 390, 364, 400, 408, 378, 348, 414}, {546, 550, 552, 522, 532, 540}, {648, 650, 644, 638}, {696, 700, 702},
- {812}, set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set(), set()]
 
-      
-      
-            
+
