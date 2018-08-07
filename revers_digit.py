@@ -1,4 +1,4 @@
-def rev_digit(c,y0,n):
+def reciprocal(c,y0,n):
 	arr=[]
 	for i in range(n):
 		arr.append(y0)
