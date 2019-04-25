@@ -1,3 +1,4 @@
+сортировка прямым выбором 
 >>> def bubble_sort(lst):
     nums = list(lst)
     for i in range(len(lst)):
