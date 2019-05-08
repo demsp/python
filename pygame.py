@@ -1,4 +1,5 @@
-# type pip install pygame and press enter.
+# sudo apt-get install python-pip
+# pip install pygame 
 
 import pygame as pg
 pg.init()
