@@ -1,3 +1,5 @@
+# type pip install pygame and press enter.
+
 import pygame as pg
 pg.init()
 clock = pg.time.Clock()
