@@ -1,0 +1,7 @@
+def prime_del(x,y):
+	for i in x:
+		for j in y:
+			print(i/j)
+		print("***")
+		
+prime_del(empty_list,prime)
