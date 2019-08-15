@@ -12,3 +12,14 @@ def prime_del(x,y):
 			if(i%j==0):
 				print(i/j)
 		print("***")
+
+def prime_del(x,y):
+	inc_var=0
+	for i in x:
+		for j in y:
+			if(i%j==0):
+				inc_var+=1
+				if(inc_var>2):
+					print(inc_var)
+		print("*")
+		inc_var=0
