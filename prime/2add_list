@@ -3,3 +3,9 @@ def add_list(x,y):
 	for i in y:
 		empty_list.append(x*i)
 add_list(101,prime_list)
+
+def add_list(x,y):
+	for i in x:
+		for j in y:
+			empty_list.append(i*j)
+add_list(prime_list,prime_list)
