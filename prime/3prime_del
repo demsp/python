@@ -4,7 +4,7 @@ def prime_del(x,y):
 			print(i/j)
 		print("***")
 		
-prime_del(empty_list,prime)
+prime_del(empty_list,prime_list)
 
 def prime_del(x,y):
 	for i in x:
