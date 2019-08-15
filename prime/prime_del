@@ -5,3 +5,10 @@ def prime_del(x,y):
 		print("***")
 		
 prime_del(empty_list,prime)
+
+def prime_del(x,y):
+	for i in x:
+		for j in y:
+			if(i%j==0):
+				print(i/j)
+		print("***")
